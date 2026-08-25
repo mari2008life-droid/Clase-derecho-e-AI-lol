@@ -22,26 +22,28 @@ Bienvenido/a a tu repositorio de proyecto. **Este archivo es tu tablero de mando
 
 ### 1.1 El problema jurídico
 ¿Qué problema **real del derecho colombiano** resuelve tu herramienta? ¿Quién lo sufre hoy y cómo lo resuelve sin tu herramienta?
-
+Las sentencias siempre suelen estar en un lenguaje técnico, con estrucutras difíciles de entender para el cuidadano común. Es por esto que, me parece una gran idea crea una IA que te ayude a entender de manera concisa la sentencia, así sería más sencillo comprenderlas sin la necesidad de un tercero. 
 ### 1.2 Usuarios
 ¿Quién va a usarla? Describe a tu usuario ideal en una frase (ej. *"un arrendatario bogotano que le subieron el canon de arrendamiento más del límite legal"*). Recuerda que al final necesitas **al menos un usuario real** que la pruebe.
+Esta IA sería para un cuidadano colombiano sin algún tipo de conocimiento jurídico que necesite entender de manera concisa y eficaz una sentencia. Así mismo, puede ser utilizada por estudiantes primíparos de derecho para que puedan comprender cómo se leen las sentencias. 
 
 ### 1.3 Qué hace y qué NO hace (alcance)
 | ✅ Sí hace | ❌ No hace |
-| --- | --- |
-| [funcionalidad 1] | [fuera de alcance 1] |
-| [funcionalidad 2] | [fuera de alcance 2] |
+| Explica una sentencia en lenguaje claro y conciso | No reemplaza la lectura de la sentencia orgininal.  |
+| Identifica los hechos, el problema jurídico, la decisión y todas las partes de la sentencias| No ofrece asesoría jurídica ni determina qué debe hacer una persona en caso concreto |
+| Define y explica términos jurídicos, presentando la información de manera organizada para facilitar su comprensión | No modifica, interpreta libremente ni crea el contenido de la decisión judicial ni resuelve casos judiciales. |
 
 *Consejo de abogado: un alcance pequeño y perfecto vale más que uno grande y roto.*
 
 ### 1.4 Marco jurídico y fuentes
 ¿Qué normas alimentan tu herramienta? Lista tu corpus normativo (leyes, decretos, sentencias — debe ser **pequeño y público**):
-- [ ] Norma/sentencia 1: [nombre + enlace]
-- [ ] Norma/sentencia 2: [nombre + enlace]
+- [ ]Artículo 229: [reconoce el derecho de toda persona a acceder a la administración de justicia / http://www.secretariasenado.gov.co/constitucion-politica?utm_source=chatgpt.com]
+- [ ] Sentencias de la Corte Constitucional : [serán la fuente principal que la herramienta explicará y traducirá a lenguaje cuidadano./https://www.corteconstitucional.gov.co/relatoria/?utm_source=chatgpt.com]
 
 ### 1.5 Nombre y lema
 Un nombre corto para tu herramienta y una frase que explique qué hace (la usarás en la demo del día de presentaciones).
-
+Aclaración de sentencias 
+Lema: "Entiende lo que decidió la justicia"
 ---
 
 ## 🗺️ Parte 2 — Plan de desarrollo
