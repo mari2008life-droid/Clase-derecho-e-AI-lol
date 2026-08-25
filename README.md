@@ -2,9 +2,9 @@
 
 **Pontificia Universidad Javeriana · 2026-II · Docente: Pedro Ardila**
 
-> **Estudiante:** [escribe aquí tu nombre completo]
-> **Nombre del proyecto:** [escribe aquí el nombre de tu herramienta]
-> **Fecha de inicio:** [AAAA-MM-DD]
+> **Estudiante:** María Fernanda Aponte González
+> **Nombre del proyecto:** Traductor de sentencias a lenguaje ciudadano
+> **Fecha de inicio:** 25/08/26
 
 ---
 
