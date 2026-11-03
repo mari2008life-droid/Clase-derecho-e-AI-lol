@@ -118,3 +118,70 @@ ESTRUCTURA DE RESPUESTA:
 ## 📚 Hito M3 — Corpus Normativo Conectado (RAG)
 
 El asistente se alimenta de fuentes oficiales en texto plano para fundamentar cada afirmación:
+
+### Fuentes del Corpus:
+1. **Constitución Política de Colombia (1991):**
+   * **Art. 229:** Garantía del derecho de toda persona a acceder a la administración de justicia sin abogado cuando la ley lo señale.
+   * **Art. 29:** Garantía del debido proceso público y nulidad de pleno derecho de pruebas obtenidas con violación del debido proceso.
+   * **Art. 86:** Procedencia de la acción de tutela para la protección inmediata de derechos constitucionales fundamentales.
+   * **Art. 23:** Derecho de petición pronta y respetuosa ante autoridades.
+2. **Sentencia T-025 de 2004 (Corte Constitucional):** Declaratoria del Estado de Cosas Inconstitucional por vulneración masiva de derechos a la población desplazada por el conflicto armado y órdenes presupuestales al Gobierno.
+3. **Sentencia T-760 de 2008 (Corte Constitucional):** Reconocimiento de la salud como derecho fundamental autónomo, prevalencia del criterio del médico tratante sobre listas del POS y unificación de planes de beneficios.
+
+---
+
+## 🚀 Hito M4 — Interfaz Web y Evidencia de Usuario Real
+
+### Enlace público de la aplicación
+🌐 **URL de acceso ciudadano:** https://mari2008life-droid.github.io/Clase-derecho-e-AI-lol/
+
+### Evidencia de prueba con usuario real (Ley 1581 de 2012)
+* **Usuario:** Carlos M. (Datos protegidos bajo la Ley Estatutaria 1581 de 2012).
+* **Perfil:** Comerciante independiente de Bogotá, 42 años, sin formación jurídica ni conocimientos en derecho procesal.
+* **Consulta realizada:** *"Mi EPS me negó una medicina para la tiroides que me mandó el doctor diciendo que no está en el plan básico. ¿Qué dijo la Corte de eso?"*
+* **Resultado observado:** La herramienta desplegó la Ficha de la Sentencia T-760/08 en 4 bloques, explicándole que el concepto del médico tratante es la máxima autoridad médica y prima sobre las listas de la EPS.
+* **Testimonio del usuario:**
+  > *"Cuando uno va al médico o lee esos fallos de jueces no entiende nada de artículos ni de leyes. Esta herramienta me dejó clarísimo en dos minutos que la EPS no me puede poner trabas si mi médico ya firmó la orden. El glosario de términos fue lo que más me sirvió."*
+
+---
+
+## ⚖️ Parte 6 — Ética, datos y responsabilidad
+
+- [x] **Advertencia visible obligatoria:** Implementada permanentemente en el encabezado de la web:  
+  *"Esta herramienta es un ejercicio académico que no constituye asesoría legal ni sustituye la consulta con un abogado."*
+- [x] **Protección de datos (Ley 1581 de 2012):** La aplicación opera en memoria volátil de sesión del navegador. **No recolecta, almacena ni transmite datos personales reales** de los usuarios.
+- [x] **Corpus 100% público:** Exclusivamente normas de la Constitución Política y jurisprudencia pública de la Corte Constitucional de Colombia.
+- [x] **Anti-alucinaciones:** El asistente admite cuando no tiene información suficiente y se niega a inventar jurisprudencia inexistente.
+
+---
+
+## 🔍 Parte 7 — Análisis crítico (Sustentación final)
+
+### 1. ¿Dónde falla tu herramienta?
+* **Matices doctrinales y salvamentos de voto:** Cuando una sentencia de constitucionalidad o tutela posee múltiples aclaraciones o salvamentos de voto con divergencias técnicas sutiles, el modelo tiende a sintetizar la posición mayoritaria y puede pasar por alto advertencias minoritarias de magistrados disidentes.
+* **Extractos descontextualizados:** Si el usuario ingresa una frase aislada sin especificar las partes ni el número de providencia, la herramienta puede interpretar el alegato de una parte como si fuera la decisión final de la Corte.
+
+### 2. ¿Qué datos procesa?
+* **Qué entra:** Texto de extractos judiciales públicos suministrados voluntariamente por el usuario en la caja de texto.
+* **Qué se guarda:** Absolutamente nada. No hay base de datos de usuarios, almacenamiento en la nube ni rastreo de cookies.
+* **Qué sale:** Una ficha didáctica estructurada en 4 bloques (Hechos, Problema Jurídico, Decisión y Glosario) acompañada de citas constitucionales y la advertencia obligatoria.
+
+### 3. ¿Por qué NO reemplaza al abogado?
+El ejercicio del derecho no consiste en resumir textos, sino en aplicar la sana crítica sobre acervos probatorios complejos, construir estrategias de litigio adaptadas a las vicisitudes de un juicio oral y asumir la representación con responsabilidad deontológica. Una inteligencia artificial carece de empatía humana ante el sufrimiento de la víctima, no posee intuición jurídica para evaluar testimonios en estrados, no puede comparecer ante los jueces y no garantiza el deber ético de lealtad procesal y secreto profesional propio de la abogacía.
+
+---
+
+## 🎤 Hito M5 — Guion de Presentación Final (5 Minutos)
+
+---
+
+## ✅ Parte 8 — Entregables finales (Definition of Done)
+
+- [x] 🔗 **Solución funcionando con URL pública:** https://mari2008life-droid.github.io/Clase-derecho-e-AI-lol/
+- [x] 👤 **Usuario real documentado:** Caso de Carlos M. registrado bajo la Ley 1581 de 2012.
+- [x] 📦 **Repositorio con historial y bitácora:** Semanas 1 a 5 registradas.
+- [x] 🧠 **Análisis crítico:** Preguntas de rigor ético y dogmático resueltas en la Parte 7.
+- [x] 📋 **Hitos M0 a M5:** Cumplidos al 100% bajo los parámetros del docente Pedro Ardila.
+
+---
+*Pontificia Universidad Javeriana · Construido con asistencia de IA (Vibe Coding) · 2026-II* 🧑‍⚖️🤖
