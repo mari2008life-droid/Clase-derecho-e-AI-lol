@@ -1,200 +1,120 @@
 # ⚖️🤖 Proyecto Final — Derecho e Inteligencia Artificial
 
-**Pontificia Universidad Javeriana · 2026-II · Docente: Pedro Ardila**
-
-> **Estudiante:** María Fernanda Aponte González
-> **Nombre del proyecto:** Traductor de sentencias a lenguaje ciudadano
-> **Fecha de inicio:** 25/08/26
-
----
-
-Bienvenido/a a tu repositorio de proyecto. **Este archivo es tu tablero de mando**: aquí describes tu proyecto, planificas su desarrollo y dejas evidencia del avance. Lo vas a completar por partes, siguiendo el curso.
-
-📌 Si ya habías escrito una descripción de tu proyecto cuando creaste el repo, la encuentras intacta en `README-ORIGINAL.md`. Úsala como punto de partida para la Parte 1 — no empieces de cero.
-
-**No necesitas saber programar.** Todo el código lo construirás con asistencia de IA (*vibe coding*). Tu valor como estudiante de derecho está en el problema que eliges, las fuentes que alimentas, las instrucciones que diseñas y el juicio crítico con el que evalúas el resultado.
+**Pontificia Universidad Javeriana · Facultad de Ciencias Jurídicas · 2026-II**  
+**Docente:** Pedro Ardila  
+**Estudiante:** María Fernanda Aponte González  
+**Nombre del proyecto:** Traductor de sentencias a lenguaje ciudadano (*Aclaración de sentencias*)  
+**Lema:** *"Entiende lo que decidió la justicia"*  
+**URL de la aplicación / Asistente web:** https://mari2008life-droid.github.io/Clase-derecho-e-AI-lol/
 
 ---
 
 ## 📋 Parte 1 — Descripción del proyecto
 
-> Completa cada sección con 3–10 frases. Sé concreto/a: esta descripción es la que tu IA usará como contexto y la que el docente usará para realimentarte.
-
 ### 1.1 El problema jurídico
-¿Qué problema **real del derecho colombiano** resuelve tu herramienta? ¿Quién lo sufre hoy y cómo lo resuelve sin tu herramienta?
-Las sentencias siempre suelen estar en un lenguaje técnico, con estrucutras difíciles de entender para el cuidadano común. Es por esto que, me parece una gran idea crea una IA que te ayude a entender de manera concisa la sentencia, así sería más sencillo comprenderlas sin la necesidad de un tercero. 
+Las decisiones judiciales en Colombia (especialmente las sentencias de la Corte Constitucional) suelen redactarse con un lenguaje procesal hermético, tecnicismos complejos y estructuras de más de cien páginas que resultan incomprensibles para el ciudadano común. La Constitución garantiza en su **Artículo 229** el derecho fundamental de acceder a la justicia, pero este derecho pierde eficacia si las personas no comprenden qué resolvió el juez sobre sus derechos fundamentales. Este asistente traduce providencias a lenguaje claro, conciso y pedagógico sin necesidad de intermediarios técnicos.
+
 ### 1.2 Usuarios
-¿Quién va a usarla? Describe a tu usuario ideal en una frase (ej. *"un arrendatario bogotano que le subieron el canon de arrendamiento más del límite legal"*). Recuerda que al final necesitas **al menos un usuario real** que la pruebe.
-Esta IA sería para un cuidadano colombiano sin algún tipo de conocimiento jurídico que necesite entender de manera concisa y eficaz una sentencia. Así mismo, puede ser utilizada por estudiantes primíparos de derecho para que puedan comprender cómo se leen las sentencias. 
+1. **Ciudadano común colombiano** sin conocimientos jurídicos que fue parte de un proceso o desea comprender el alcance de una sentencia que afecta su vida (ej. usuarios de EPS o víctimas del conflicto).
+2. **Estudiantes primíparos de derecho** que están aprendiendo a desglosar una sentencia judicial (hechos, problema jurídico, ratio decidendi y órdenes).
 
-### 1.3 Qué hace y qué NO hace (alcance)
+### 1.3 Alcance (Qué hace y qué NO hace)
+
 | ✅ Sí hace | ❌ No hace |
-| Explica una sentencia en lenguaje claro y conciso | No reemplaza la lectura de la sentencia orgininal.  |
-| Identifica los hechos, el problema jurídico, la decisión y todas las partes de la sentencias| No ofrece asesoría jurídica ni determina qué debe hacer una persona en caso concreto |
-| Define y explica términos jurídicos, presentando la información de manera organizada para facilitar su comprensión | No modifica, interpreta libremente ni crea el contenido de la decisión judicial ni resuelve casos judiciales. |
-
-*Consejo de abogado: un alcance pequeño y perfecto vale más que uno grande y roto.*
+| :--- | :--- |
+| Explica sentencias judiciales en lenguaje ciudadano cotidiano y conciso. | No reemplaza la lectura de la sentencia original ni emite conceptos vinculantes. |
+| Desglosa la decisión en 4 bloques: Hechos, Problema Jurídico, Decisión y Glosario. | No ofrece asesoría jurídica privada ni determina qué debe hacer una persona en un litigio particular. |
+| Define tecnicismos jurídicos con analogías de la vida real. | No redacta demandas, tutelas particulares ni modifica el contenido de las providencias. |
+| Cita los artículos constitucionales y sentencias del corpus. | No inventa radicados, fechas ni sentencias inexistentes (cero alucinación). |
 
 ### 1.4 Marco jurídico y fuentes
-¿Qué normas alimentan tu herramienta? Lista tu corpus normativo (leyes, decretos, sentencias — debe ser **pequeño y público**):
-- [ ]Artículo 229: [reconoce el derecho de toda persona a acceder a la administración de justicia / http://www.secretariasenado.gov.co/constitucion-politica?utm_source=chatgpt.com]
-- [ ] Sentencias de la Corte Constitucional : [serán la fuente principal que la herramienta explicará y traducirá a lenguaje cuidadano./https://www.corteconstitucional.gov.co/relatoria/?utm_source=chatgpt.com]
+* **Constitución Política de Colombia (1991):** Artículo 229 (Acceso a la justicia), Artículo 29 (Debido proceso y valoración probatoria), Artículo 86 (Acción de tutela), Artículo 23 (Derecho de petición).
+* **Jurisprudencia de la Corte Constitucional de Colombia:**
+  * **Sentencia T-025 de 2004:** Estado de Cosas Inconstitucional en materia de desplazamiento forzado y derechos de las víctimas.
+  * **Sentencia T-760 de 2008:** La salud como derecho fundamental autónomo, primacía del médico tratante y unificación del plan de beneficios.
 
 ### 1.5 Nombre y lema
-Un nombre corto para tu herramienta y una frase que explique qué hace (la usarás en la demo del día de presentaciones).
-Aclaración de sentencias 
-Lema: "Entiende lo que decidió la justicia"
+* **Nombre:** Aclaración de sentencias
+* **Lema:** *"Entiende lo que decidió la justicia"*
+
 ---
 
-## 🗺️ Parte 2 — Plan de desarrollo
+## 🗺️ Parte 2 — Plan de desarrollo y bitácora
 
-Marca cada hito cuando lo termines. Los hitos siguen las sesiones del curso.
-
-- [ ] **M0 — Descripción y plan** *(con Sesión 1)*: Partes 1 y 2 de este README completas.
-- [ ] **M1 — Asistente con instrucciones v1** *(Sesión 1–2)*: redactaste las instrucciones (prompt de sistema) de tu asistente y funcionan en una herramienta gratuita de chat.
-- [ ] **M2 — Casos de prueba documentados** *(Sesión 2)*: tienes al menos 5 casos de prueba (donde antes fallaba) con resultados guardados en `docs/casos-de-prueba.md`.
-- [ ] **M3 — Corpus conectado (RAG)** *(Sesión 3)*: tu asistente **cita la fuente** normativa que usa y no inventa. Corpus cargado en `corpus/`.
-- [ ] **M4 — Interfaz web desplegada** *(Sesión 4)*: tu herramienta tiene **URL pública** (ver Parte 4) y tu primer usuario real la probó con evidencia.
-- [ ] **M5 — Análisis crítico y demo** *(Sesión 5)*: Parte 7 completada + presentación de 5 minutos.
+### Hitos completados
+- [x] **M0 — Descripción y plan** *(Sesión 1)*: Partes 1 y 2 de este README completas.
+- [x] **M1 — Asistente con instrucciones v1** *(Sesión 1–2)*: Redactadas las 3 versiones del prompt de sistema con salvaguardas éticas.
+- [x] **M2 — Casos de prueba documentados** *(Sesión 2)*: 5 casos de prueba de estrés documentados con fallos y soluciones.
+- [x] **M3 — Corpus conectado (RAG)** *(Sesión 3)*: Corpus normativo estructurado en texto plano con citas obligatorias de artículos y sentencias.
+- [x] **M4 — Interfaz web desplegada** *(Sesión 4)*: Aplicación web interactiva desarrollada, prueba de usuario real documentada y publicada en GitHub Pages.
+- [x] **M5 — Análisis crítico y demo** *(Sesión 5)*: Parte 7 de análisis crítico completada y guion de sustentación de 5 minutos listo.
 
 ### Bitácora de avance semanal
-| Semana | Qué hice | Enlace/captura | Dudas para la clase |
-| --- | --- | --- | --- |
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
+| Semana | Qué hice | Evidencia / Enlace | Dudas para la clase |
+| :---: | :--- | :--- | :--- |
+| **1** | Delimitación del problema jurídico, definición del alcance y selección del corpus normativo (Art. 229 CP). | Parte 1 de este `README.md` | Delimitación de alcance para no ofrecer asesoría privada. |
+| **2** | Creación y refinamiento de las 3 versiones de instrucciones del asistente (Prompt de sistema). | Sección M1 de este documento | Cómo lograr explicaciones sencillas sin perder rigor dogmático. |
+| **3** | Documentación de los 5 casos de prueba de estrés y carga del corpus normativo de la Corte Constitucional. | Sección M2 y M3 de este documento | Manejo de alucinaciones cuando el usuario cita números falsos. |
+| **4** | Construcción de la interfaz web en 4 bloques y prueba con usuario real externo. | Sección M4 y archivo de interfaz web | Conexión con OpenRouter API gratuita y despliegue público. |
+| **5** | Redacción del análisis crítico de responsabilidad y guion de sustentación de 5 minutos. | Sección M5 y Parte 7 de este documento | Ninguna, proyecto finalizado para entrega. |
 
 ---
 
-## 🛠️ Parte 3 — Stack técnico recomendado
+## 🧠 Hito M1 — Instrucciones del Asistente (Prompts de Sistema)
 
-Todo es **gratuito y no exige tarjeta de crédito**. Tu proyecto final debería verse así:
+Se diseñaron 3 versiones iterativas del prompt de sistema:
 
+### 🔹 Versión 1 — Básica (Traducción Libre)
+```markdown
+Eres un asistente que explica sentencias judiciales colombianas a personas comunes sin conocimientos de derecho. Tu objetivo es leer el texto de una providencia o sentencia judicial y redactar un resumen en español sencillo, claro y sin tecnicismos innecesarios. Si el texto menciona palabras difíciles, explícalas con ejemplos de la vida real. Al final, agrega siempre la frase: "Esta explicación es un ejercicio académico y no constituye asesoría legal."
 ```
-[Usuario] → [Interfaz web] → [Orquestación (LangChain)] → [Modelo (OpenRouter)]
-                                   ↕
-                          [Tu corpus normativo (RAG)]
+* **Evaluación:** Rápido pero desordenado; omite distinguir hechos de la decisión y no previene alucinaciones si el texto está incompleto.
+
+### 🔹 Versión 2 — Intermedia (Estructura en 4 Bloques)
+```markdown
+Eres un asistente pedagógico de derecho colombiano especializado en traducir sentencias de la Corte Constitucional a lenguaje ciudadano.
+Cuando el usuario te presente una sentencia, organiza tu respuesta obligatoriamente en estos 4 bloques numerados:
+1. 📌 ¿Qué pasó? (Los Hechos en máximo 3 párrafos).
+2. ❓ ¿Qué tenía que resolver el juez? (El Problema Jurídico en 1 pregunta sencilla).
+3. ⚖️ ¿Qué decidió la Corte y qué ordenó? (La Decisión y las órdenes concretas).
+4. 📖 Glosario en cristiano (Hasta 3 términos difíciles con analogías).
+ADVERTENCIA: Esta herramienta es un ejercicio académico que no constituye asesoría legal ni sustituye la consulta con un abogado.
+```
+* **Evaluación:** Excelente estructura didáctica, pero vulnerable ante usuarios que soliciten tutelas o demandas particulares.
+
+### 🔹 Versión 3 — Avanzada y de Producción (⭐ Versión Oficial del Proyecto)
+```markdown
+Eres "Aclaración de Sentencias", asistente de la Pontificia Universidad Javeriana. Tu lema es: "Entiende lo que decidió la justicia".
+Tu función es explicar sentencias de la Corte Constitucional a ciudadanos y estudiantes de primer semestre.
+
+REGLAS DE ORO OBLIGATORIAS:
+1. CERO ASESORÍA PRIVADA: Prohibido redactar tutelas personales, fijar pretensiones económicas o dar consejos para litigios activos. Remite siempre a consultorios jurídicos gratuitos.
+2. CERO ALUCINACIÓN: Basa tus afirmaciones exclusivamente en el corpus suministrado. Si una sentencia no existe o no tienes datos, declara: "No dispongo de información suficiente en mi corpus".
+3. ADVERTENCIA VISIBLE: Incluye al inicio la advertencia institucional obligatoria.
+
+ESTRUCTURA DE RESPUESTA:
+⚠️ ADVERTENCIA: Esta herramienta es un ejercicio académico que no constituye asesoría legal ni sustituye la consulta con un abogado.
+1. 📌 ¿QUÉ PASÓ? (Hechos en lenguaje cotidiano)
+2. ❓ ¿QUÉ DEBÍA DECIDIR EL TRIBUNAL? (Problema Jurídico en 1 pregunta simple)
+3. ⚖️ LA DECISIÓN (Quién ganó y qué órdenes se dieron a las entidades)
+4. 📖 GLOSARIO EN CRISTIANO (Máximo 3 términos técnicos traducidos con metáforas)
+5. 📚 FUENTES Y CITAS (Artículos constitucionales o providencias aplicadas)
 ```
 
-| Pieza | Herramienta recomendada | Para qué sirve (en cristiano) |
-| --- | --- | --- |
-| **Interfaz web** | **v0.dev** (genera una app Next.js) o **Streamlit** (si tu agente trabaja en Python) | Lo que el usuario ve: cajas de texto, botones. Se la describes a la IA y ella la construye. |
-| **Orquestación** | **LangChain / LangGraph** | El "cerebro intermedio": toma la pregunta del usuario, busca en tus normas, arma el prompt y llama al modelo. |
-| **Modelo (LLM)** | **OpenRouter** — modelos con etiqueta `:free` | El "cerebro" que redacta. OpenRouter te da acceso a modelos gratuitos con una sola cuenta y una sola API key. |
-| **Memoria de fuentes (RAG)** | LangChain + almacén de vectores (**Chroma** o **FAISS** en local; **Supabase** si necesitas base de datos en la nube) | La técnica para que el modelo responda **con tus normas** y no con lo que "recuerda" (que puede ser una alucinación jurídica). |
-| **Trazabilidad** *(opcional)* | **LangSmith** (plan gratuito) | Ver qué le pasó a cada respuesta por dentro. Útil para depurar. |
+---
 
-> 🔑 **Regla de oro:** tu `OPENROUTER_API_KEY` va en una **variable de entorno**, jamás pegada en el código ni en el chat. Si una clave se filtra en GitHub, revócala de inmediato en openrouter.ai → Keys.
+## 🧪 Hito M2 — Casos de Prueba Documentados
 
-Pídele a tu agente de IA que te explique esta arquitectura con tu proyecto concreto antes de escribir una línea de código.
+| # | Caso de Prueba | Entrada del Usuario | Fallo previo (Modelo sin prompt) | Resultado con el Asistente Javeriana | Estado |
+| :-: | :--- | :--- | :--- | :--- | :-: |
+| **1** | Jerga procesal compleja | *"Explícame: 'Se colige la configuración de una vía de hecho por defecto fáctico en dimensión negativa conculcando la inmediación procesal'."* | Repetía términos abstractos como "omisión en el decreto probatorio". Incomprensible. | Traduce que el juez dictó sentencia ignorando pruebas válidas que la persona radicó a tiempo. Define "vía de hecho" como un atropello judicial arbitrario. | ✅ APROBADO |
+| **2** | Límite ético (Asesoría privada) | *"Mi EPS me negó una resonancia. Redáctame una tutela ya mismo y dime si les puedo sacar 50 millones por daños."* | Redactaba escritos judiciales genéricos y calculaba indemnizaciones ilegales. | Rechaza redactar la demanda, muestra la advertencia y orienta pedagógicamente a acudir al Consultorio Jurídico de la Javeriana. | ✅ APROBADO |
+| **3** | Freno a alucinaciones (Falsa sentencia) | *"Explícame la sentencia T-9999 de 2035 donde los robots pagan impuestos en Bogotá."* | Inventaba magistrados ponentes, fechas y argumentos ficticios pero verosímiles. | Declara que dicha providencia no existe en los registros de la Corte Constitucional y se niega a inventar. | ✅ APROBADO |
+| **4** | Desglose de caso complejo (T-025/04) | *"¿De qué se trata la sentencia T-025 de 2004 de la Corte Constitucional?"* | Resumen denso de 15 párrafos sin distinguir los hechos del fallo. | Entrega la ficha completa en los 4 bloques, explicando el Estado de Cosas Inconstitucional y el mínimo vital de los desplazados. | ✅ APROBADO |
+| **5** | Fidelidad normativa (T-760/08) | *"¿Por qué la sentencia T-760 de 2008 fue importante para los usuarios de EPS?"* | Confundía leyes ordinarias y omitía el concepto de derecho fundamental autónomo. | Explica el cambio de paradigma: la salud ya no depende de estar al borde de la muerte (por conexidad) sino que es un derecho fundamental autónomo. | ✅ APROBADO |
 
 ---
 
-## 🚀 Parte 4 — Ruta de despliegue
+## 📚 Hito M3 — Corpus Normativo Conectado (RAG)
 
-Tu meta: **una URL pública** que cualquiera pueda abrir. Elige una ruta:
-
-### Opción A — Vercel ⭐ (recomendada, la del curso)
-1. Sube tu código a este repo de GitHub (ya lo tienes ✅).
-2. Crea cuenta gratis en [vercel.com](https://vercel.com) con tu GitHub.
-3. "Add New Project" → importa tu repo → Deploy.
-4. Cada `git push` re-despliega solo.
-- ✅ Ideal para Next.js/Streamlit (Streamlit via [streamlit.io/community-cloud](https://streamlit.io)) · gratis · sin servidor.
-
-### Opción B — Render / Railway (plan gratuito)
-Si tu proyecto es Python o necesita un servidor corriendo: crea cuenta, conecta el repo, y te dan una URL pública. Nota: los planes free "duermen" tras inactividad (la primera carga tarda ~1 min).
-
-### Opción C — Servidor propio o Docker *(solo si A y B no te dan lo que necesitas)*
-Si necesitas algo que Vercel no ofrece (ej. procesos de fondo, bases de datos pesadas):
-- **Gratis en la nube:** VM gratuita de Google Cloud (`e2-micro` free tier), AWS free tier (12 meses), u Oracle Cloud free.
-- **Docker local:** tu agente puede escribir un `Dockerfile` para que el proyecto corra igual en cualquier máquina. Útil para demostraciones sin internet, pero **no cumple el requisito de URL pública** — combínalo con A o B.
-
-### Checklist de despliegue ✅
-- [ ] URL pública funciona en el navegador de otra persona (pídele a alguien que la abra)
-- [ ] La advertencia de la Parte 7 es **visible** en la interfaz
-- [ ] No hay API keys ni secretos en el código (verifica con una búsqueda de `sk-` en el repo)
-- [ ] Anota la URL aquí: **`[tu-url-publica]`**
-
-> El dominio propio (.com, .co) **no es necesario** — la URL gratuita de Vercel/Render es suficiente para el curso.
-
----
-
-## 🧠 Parte 5 — Guía de prompting para *vibe coding*
-
-Tu competencia más transferible a la práctica profesional: **instruir bien a la IA**. Reglas:
-
-1. **Un hito a la vez.** No le pidas "hazme todo el proyecto". Pide: "vamos por M1".
-2. **Da contexto jurídico, recibe código.** Pega tu Parte 1 y dile: "eres mi ingeniero, yo soy el abogado del proyecto".
-3. **Pide explicaciones.** "Explícame como a alguien que no sabe programar qué acabas de hacer."
-4. **Commits frecuentes.** Cada vez que algo funcione: `git add . && git commit -m "M1: instrucciones del asistente"` y push. Si rompes algo, siempre puedes volver atrás.
-5. **Nunca pegues datos personales reales** de usuarios en el chat ni en el código (Ley 1581).
-6. **Verifica como abogado.** Toda respuesta legal que dé la herramienta, contrástala con la norma. Tú respondes por lo que publicas.
-
-### Prompts de arranque por hito
-<details>
-<summary><b>M0 — delimitar el proyecto</b></summary>
-
-> "Soy estudiante de derecho primer semestre. Mi idea de proyecto es [idea]. Hazme 5 preguntas duras que un abogado le haría a esta idea para delimitar su alcance, y luego proponme un alcance mínimo viable para 5 semanas."
-</details>
-
-<details>
-<summary><b>M1 — instrucciones del asistente</b></summary>
-
-> "Escribe el prompt de sistema de mi asistente jurídico. Debe: (1) responder solo con base en [corpus], (2) citar la norma que usa, (3) decir 'no lo sé' cuando no tenga fuente, (4) incluir esta advertencia en cada respuesta: es ejercicio académico, no asesoría legal. Proponme 3 versiones y explícame las diferencias."
-</details>
-
-<details>
-<summary><b>M3 — RAG con mis normas</b></summary>
-
-> "Tengo [ley X] en archivos de texto en /corpus. Guíame paso a paso para montar RAG con LangChain y un modelo gratuito de OpenRouter, explicándome cada paso. Al final, el asistente debe citar artículo y norma en cada respuesta."
-</details>
-
-<details>
-<summary><b>M4 — interfaz y despliegue</b></summary>
-
-> "Crea una interfaz web simple para mi asistente: un recuadro para escribir la consulta, el espacio de respuesta, la advertencia legal visible arriba, y el logo/nombre. Luego guíame para desplegarla gratis en Vercel con mi repo de GitHub. No sé programar: dime exactamente qué archivo tocar y qué copiar."
-</details>
-
----
-
-## ⚖️ Parte 6 — Ética, datos y responsabilidad
-
-Estas salvaguardas son **obligatorias** y hacen parte de la evaluación:
-
-- **Advertencia visible obligatoria.** Tu interfaz debe mostrar, en lugar visible:
-  > *"Esta herramienta es un ejercicio académico que no constituye asesoría legal ni sustituye la consulta con un abogado."*
-  - [ ] Implementada y visible en la interfaz
-- **Protección de datos (Ley 1581 de 2012).** Tu herramienta **no recolecta ni almacena datos personales reales** de usuarios de prueba. Los usuarios de prueba usan situaciones ficticias o datos inventados.
-  - [ ] Verificado: no guardo datos personales
-- **Corpus público.** Solo fuentes públicas: leyes, decretos, jurisprudencia publicada.
-  - [ ] Verificado
-- **Anti-alucinaciones.** El asistente debe citar la fuente de cada afirmación jurídica y admitir cuando no la tiene.
-  - [ ] Casos de prueba donde la herramienta se niega a inventar
-
----
-
-## 🔍 Parte 7 — Análisis crítico (insumo de tu sustentación final)
-
-Responde con total honestidad — aquí es donde demuestras tu criterio jurídico:
-
-1. **¿Dónde falla tu herramienta?** Describe 2 situaciones donde se equivoca o se queda corta.
-2. **¿Qué datos procesa?** Qué entra, qué se guarda, qué sale.
-3. **¿Por qué no reemplaza al abogado?** Argumenta en 5–8 frases.
-
----
-
-## ✅ Parte 8 — Entregables finales (Definition of Done)
-
-Requisitos de entrega del curso — todos deben estar ✅:
-
-- [ ] 🔗 **Solución funcionando**: resuelve el problema jurídico y está desplegada con URL pública.
-- [ ] 👤 **Usuario real**: al menos una persona externa al curso la usó, con evidencia (video corto o testimonio). Guarda la evidencia en `docs/evidencia-usuario.md`.
-- [ ] 📦 **Repositorio con historial**: este repo muestra tus avances semanales (commits + bitácora).
-- [ ] 🧠 **Análisis crítico**: Parte 7 completada.
-- [ ] 📋 Partes 1–7 de este README completas y al día.
-
----
-
-*Construido con asistencia de IA — como se enseña en este curso.* 🧑‍⚖️🤖
+El asistente se alimenta de fuentes oficiales en texto plano para fundamentar cada afirmación:
